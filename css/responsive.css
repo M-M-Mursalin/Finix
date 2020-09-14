@@ -245,3 +245,36 @@
 }
 
 /* 768px end  */
+/* 600px start  */
+@media (max-width: 600px){
+    .call-info{
+        top: 13px;
+        left: -146px;
+        position: absolute;
+    }
+    .call-info a {
+        font-size: 9px;
+    }
+    .call-info span {
+        font-size: 12px;
+    }
+    .call-icon {
+        font-size: 12px;
+        position: absolute;
+        top: 13px;
+        left: -94px;
+    }
+    .header-top-search a {
+        font-size: 12px;
+    }
+    .header-top-search {
+        position: absolute;
+        top: 24px;
+        left: 263px;
+    }
+    .header-top-button {
+        position: inherit;
+        
+    }
+}
+/* 600px end */
