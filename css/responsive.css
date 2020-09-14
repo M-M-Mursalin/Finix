@@ -153,7 +153,8 @@
         z-index: 22;
     }
     .header-top-menu li ul li:hover .inner-drop {
-        left: 200px;
+        left: 55px;
+        top: -81px;
     }
     .header-top-search {
         position: absolute;
@@ -242,6 +243,18 @@
     .services-item-text p {
         font-size: 12px;
     }
+    .service-nav-item li:nth-child(1) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(2) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(3) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(4) a.active::after {
+        bottom: -133px;
+    }
 }
 
 /* 768px end  */
@@ -277,3 +290,32 @@
     }
 }
 /* 600px end */
+/* 482 px start  */
+@media (max-width: 482px){
+     .service-nav-item li:nth-child(1) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(2) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(4) a.active::after {
+        bottom: -21px;
+    }
+}
+/* 482 px end  */
+/* 352ps start  */
+@media (max-width: 352px){
+    .service-nav-item li:nth-child(1) a.active::after {
+        bottom: -245px;
+    }
+     .service-nav-item li:nth-child(2) a.active::after {
+        bottom: -245px;
+    }
+    .service-nav-item li:nth-child(3) a.active::after {
+        bottom: -133px;
+    }
+    .service-nav-item li:nth-child(4) a.active::after {
+        bottom: -133px;
+    }
+}
+/* 352ps end  */
