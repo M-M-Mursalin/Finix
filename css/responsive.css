@@ -247,9 +247,9 @@
 /* 768px end  */
 /* 600px start  */
 @media (max-width: 600px){
-    .call-info{
+    .call-info {
         top: 13px;
-        left: -146px;
+        left: -133px;
         position: absolute;
     }
     .call-info a {
@@ -262,7 +262,7 @@
         font-size: 12px;
         position: absolute;
         top: 13px;
-        left: -94px;
+        left: -81px;
     }
     .header-top-search a {
         font-size: 12px;
@@ -270,11 +270,10 @@
     .header-top-search {
         position: absolute;
         top: 24px;
-        left: 263px;
+        left: 281px;
     }
     .header-top-button {
-        position: inherit;
-        
+        position: inherit; 
     }
 }
 /* 600px end */
