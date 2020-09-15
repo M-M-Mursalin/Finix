@@ -269,6 +269,9 @@
     .header-top-button {
         position: inherit; 
     }
+     .header-top{
+        position: inherit;
+    }
 }
 /* 600px end */
 /* 482 px start  */
