@@ -156,15 +156,15 @@
         left: 55px;
         top: -81px;
     }
-    .header-top-search {
+   .header-top-search {
         position: absolute;
         top: 22px;
-        left: 280px;
+        left: 380px;
     }
     .header-top-call {
         position: absolute;
         top: 10px;
-        left: 322px;
+        left: 190px;
     }
     .header-top-button {
         position: absolute;
@@ -260,30 +260,11 @@
 /* 768px end  */
 /* 600px start  */
 @media (max-width: 600px){
-    .call-info {
-        top: 13px;
-        left: -133px;
-        position: absolute;
-    }
-    .call-info a {
-        font-size: 9px;
-    }
-    .call-info span {
-        font-size: 12px;
-    }
-    .call-icon {
-        font-size: 12px;
-        position: absolute;
-        top: 13px;
-        left: -81px;
-    }
-    .header-top-search a {
-        font-size: 12px;
-    }
     .header-top-search {
-        position: absolute;
-        top: 24px;
-        left: 281px;
+        display: none;
+    }
+    .header-top-call {
+        display: none;
     }
     .header-top-button {
         position: inherit; 
