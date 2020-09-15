@@ -272,6 +272,9 @@
      .header-top{
         position: inherit;
     }
+    .team-member{
+        text-align: center;
+    }
 }
 /* 600px end */
 /* 482 px start  */
